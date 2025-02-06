@@ -1,0 +1,95 @@
+.todo-items {
+  margin-top: 20px;
+}
+
+.todo-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-item input {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background: none;
+  color: black;
+  border: none;
+  font-size: 20px;
+  cursor: pointer; /* Added cursor property for better UX */
+}
+
+.todo {
+    width: 600px;
+    min-height: 732px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    margin: auto;
+    margin-top: 174px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo-header {
+    margin-top: 84px;
+    color: #002765;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+}
+
+.todo-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.todo-input {
+    border-radius: 50px;
+    background: #edeef0;
+    border: none;
+    outline: none;
+    width: 576px;
+    height: 80px;
+    padding-left: 35px;
+    font-size: 20px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-add-btn {
+    border-radius: 50px;
+    background: #ff5733;
+    width: 187px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.todo-add-btn:hover {
+    background: #c70039;
+}
